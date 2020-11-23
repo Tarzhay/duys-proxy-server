@@ -41,24 +41,37 @@
 */
 
 module.exports = {
+
   service1: {
-    api: '/api/:id',
+    api: '/:id',
     url: 'http://52.53.255.63:3001/',
+    // url: 'http://localhost:3001/',
     bundle: 'bundle.js',
   },
+  // service1: {
+  //   api: 'FIX_ME',
+  //   url: 'http://localhost:3001',
+  //   bundle: 'app.js',
+  // },
   service2: {
     api: '/:id',
-    url: 'http://localhost:3001',
+    url: 'http://3.128.24.117:3001/',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/products/:id',
-    url: 'http://localhost:3001',
+    api: '/:id',
+    url: 'http://18.207.173.218:3001/',
     bundle: 'bundle.js',
+    style: 'style.css'
   },
+  // service3: {
+  //   api: 'FIX_ME',
+  //   url: 'http://localhost:3003',
+  //   bundle: 'app.js',
+  // },
   service4: {
     api: 'FIX_ME',
-    url: 'http://localhost:3001',
+    url: 'http://localhost:3004',
     bundle: 'app.js',
   },
 };
