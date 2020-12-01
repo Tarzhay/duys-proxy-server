@@ -43,8 +43,8 @@
 module.exports = {
   service1: {
     api: '/products/:id',
-    url: 'http://13.56.223.106:3001/',
-    // url: 'http://localhost:3001/',
+    // url: 'http://13.56.223.106:3001/',
+    url: 'http://localhost:3001/',
     bundle: 'bundle.js',
   },
   service2: {
@@ -54,17 +54,7 @@ module.exports = {
   },
   service3: {
     api: '/reviews/:id',
-    url: 'http://52.206.128.170:3001/',
+    url: 'http://52.206.128.170:3003/',
     bundle: 'bundle.js'
-  },
-  // service3: {
-  //   api: 'FIX_ME',
-  //   url: 'http://localhost:3003',
-  //   bundle: 'app.js',
-  // },
-  // service4: {
-  //   api: 'FIX_ME',
-  //   url: 'http://localhost:3004',
-  //   bundle: 'app.js',
-  // },
+  }
 };
