@@ -43,8 +43,8 @@
 module.exports = {
   service1: {
     api: '/products/:id',
-    // url: 'http://13.56.223.106:3001/',
-    url: 'http://localhost:3001/',
+    url: 'http://13.56.223.106:3001/',
+    // url: 'http://localhost:3001/',
     bundle: 'bundle.js',
   },
   service2: {
