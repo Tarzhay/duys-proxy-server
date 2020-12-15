@@ -6,13 +6,13 @@ const {
 
 const router = Router();
 
-router.use('/service1.js', createProxyMiddleware({
-  target: service1.url,
-  pathRewrite: {
-    '^/bundles/service1.js': service1.bundle,
-  },
-  changeOrigin: true,
-}));
+// router.use('/service1.js', createProxyMiddleware({
+//   target: service1.url,
+//   pathRewrite: {
+//     '^/bundles/service1.js': service1.bundle,
+//   },
+//   changeOrigin: true,
+// }));
 
 router.use('/service2.js', createProxyMiddleware({
   target: service2.url,
@@ -22,26 +22,10 @@ router.use('/service2.js', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-router.use('/service3.js', createProxyMiddleware({
-  target: service3.url,
-  pathRewrite: {
-    '^/bundles/service3.js': service3.bundle,
-  },
-  changeOrigin: true,
-}));
-
-// router.use('/style.css-service3', createProxyMiddleware({
+// router.use('/service3.js', createProxyMiddleware({
 //   target: service3.url,
 //   pathRewrite: {
-//     '^/bundles/styles.css-service3.css': service3.style,
-//   },
-//   changeOrigin: true,
-// }));
-
-// router.use('/service4.js', createProxyMiddleware({
-//   target: service4.url,
-//   pathRewrite: {
-//     '^/bundles/service4.js': service4.bundle,
+//     '^/bundles/service3.js': service3.bundle,
 //   },
 //   changeOrigin: true,
 // }));
