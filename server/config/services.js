@@ -50,7 +50,7 @@ module.exports = {
   service2: {
     api: '/q-and-a/:id',
   //  url: 'http://localhost:3002/',
-    url: 'http://184.73.19.248:3002',
+    url: 'http://50.16.122.76',
     bundle: 'bundle.js',
   },
   // service3: {
